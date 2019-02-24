@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <title>Hangman</title>
+</head>
+
+<body>
+    <!-- <div> -->
+    <header>
+        <img src="Header_Images/2.png">
+    </header>
+    <!-- </div> -->
+
+    <div class="content">
+
+        <div class="leftside">
+            <div class="EDM Artist">
+                <img id="artist-image" src="IPOD_EDM_ARTISTS/1.png">
+            </div>
+            <div class="Equalizer">
+                <div class="equaliser-container">
+                    <ol class="equaliser-column">
+                        <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                        <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                        <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                        <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                        <li class="colour-bar"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightside">
+            <div class="TextForTheGame">
+                <br>
+                <strong id="keyToBegin">Any Key To Begin!</strong>
+                <br>
+                <strong id="wins">Wins: <span id="win-container">0</span></strong>
+                <div id="word">
+                        <strong>Guess The Word</strong>
+                        <div class="word__holder"></div>
+
+                </div>
+                <strong id="guessesRemaining">Guesses Remaing: <span id="guesses-remaining"></span></span></strong>
+                <br>
+                <strong id="lettersGuessed">Letters Guessed: <span id="guess-container"></span></strong>
+                <br>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+<div class="footer">
+    <footer>
+        EDM Hangman - Copyright &#169;
+    </footer>
+</div>
+
+
+<script src="animations.js"></script>
+
+</html>
